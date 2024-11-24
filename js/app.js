@@ -220,25 +220,25 @@
 			// Set title
 			switch($stateParams.type) {
 				case 'Cukorviragdisz':
-					$scope.title = 'Cukorvirágdíszek';
+					$scope.title = 'Blumenschmuck aus Zucker';
 					break;
 				case 'Eskuvocukor':
-					$scope.title = 'Esküvői díszek';
+					$scope.title = 'Hochzeitsdekorationen';
 					break;
 				case 'Figurak':
-					$scope.title = 'Figurák';
+					$scope.title = 'Figuren';
 					break;
 				case 'Naszparok':
-					$scope.title = 'Nászpárok';
+					$scope.title = 'Paare in den Flitterwochen ';
 					break;
 				case 'Sutemenyek':
-					$scope.title = 'Sütemények';
+					$scope.title = 'Kuchen';
 					break;
 				case 'Tortak':
-					$scope.title = 'Torták';
+					$scope.title = 'Torten';
 					break;
 				case 'Karamell-cukrok':
-					$scope.title = 'Karamell cukrok';
+					$scope.title = 'Karamellzucker';
 					break;
 				default:
 					$scope.title = $stateParams.type;

@@ -1,0 +1,153 @@
+<!-- Navbar -->
+<nav class="navbar navbar-expand-xxl"
+		 ng-bs-navbar-collapse>
+
+	<!-- Container -->
+	<div class="container-fluid">
+
+		<!-- Logo -->
+	  <a class="navbar-brand me-1">
+		  <img ng-src="./img/icons/orchidea.svg" height="40" width="40" alt="logo">
+	  </a>
+
+		<!--Name-->
+    <a class="navbar-brand me-1" ui-sref="home">
+      <span class="ikon">ZuckerDeco</span>
+      <h6 class="alcim">Zuckerblumen und Zuckerornamente</h6>
+    </a>
+		
+    <!-- Hamburger icon -->
+	  <button class="navbar-toggler " 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navbarNav" 
+            aria-controls="navbarNav" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+	  </button>
+
+		<!-- Navigation -->
+	  <div class="collapse navbar-collapse" id="navbarNav">
+
+			<!-- Navbar content LEFT -->
+			<ul class="navbar-nav me-auto">
+
+        <!-- Home -->
+		    <li class="nav-item mx-1">
+		  	  	<a class="nav-link " 
+             	ui-sref="home"
+             	ui-sref-active="active">
+			  	<span class="menupontok">Hauptseite</span>
+          	  	</a>
+		    </li>
+
+        <!-- Presing Lenke -->
+		    <li class="nav-item mx-1">
+		  	  	<a class="nav-link text-nowrap" 
+            	ui-sref="presing_lenke"
+             	ui-sref-active="active">
+			 	<span class="menupontok">Presing Lenke</span> 
+          	  	</a>
+		    </li>
+
+        <!-- Galléria -->
+		    <li class="nav-item dropdown ms-1">
+          		<a class="nav-link dropdown-toggle" 
+				href="#" 
+				role="button" 
+				data-bs-toggle="dropdown" 
+				aria-expanded="false">
+				<span class="menupontok">Galerie</span>	
+          		</a>
+          			<ul class="dropdown-menu dropdown-menu-dark">
+
+						<!-- Cukorvirágdíszek -->
+		  		  		<li class="nav-item">
+							<a class="dropdown-item" 
+								 ui-sref-active="active" 
+								 ui-sref="galeria({type:'Cukorviragdisz'})">
+								 Blumenschmuck aus Zucker
+							</a>
+						</li>
+
+						<!-- Esküvői díszek -->
+		  		  		<li class="nav-item">
+							<a class="dropdown-item" 
+								 ui-sref-active="active" 
+								 ui-sref="galeria({type:'Eskuvocukor'})">
+								 Hochzeitsdekorationen
+							</a>
+						</li>
+
+						<!-- Figurák -->
+		  		  		<li class="nav-item">
+							<a class="dropdown-item" 
+								 ui-sref-active="active" 
+								 ui-sref="galeria({type:'Figurak'})">
+								Figuren
+							</a>
+						</li>
+
+						<!-- Nászpárok -->
+		  		  		<li class="nav-item">
+							<a class="dropdown-item" 
+								 ui-sref-active="active" 
+								 ui-sref="galeria({type:'Naszparok'})">
+								 Paare in den Flitterwochen
+							</a>
+						</li>
+
+						<!-- Torták -->
+
+						<li class="nav-item">
+							<a class="dropdown-item" 
+								 ui-sref-active="active" 
+								 ui-sref="galeria({type:'Tortak'})">
+								 Torten
+							</a>
+						</li>
+
+						<!-- Sütemények -->
+
+						<li class="nav-item">
+							<a class="dropdown-item" 
+								 ui-sref-active="active" 
+								 ui-sref="galeria({type:'Sutemenyek'})">
+								 Kuchen
+							</a>
+						</li>
+
+						<!-- Karamell cukrok -->
+
+						<li class="nav-item">
+							<a class="dropdown-item" 
+								 ui-sref-active="active" 
+								 ui-sref="galeria({type:'Karamell-cukrok'})">
+								 Karamellzucker
+							</a>
+						</li>
+		  	  		</ul>
+		    </li>
+
+       
+
+        <!-- Kapcsolat -->
+		    <li class="nav-item mx-1">
+		  	  <a class="nav-link" 
+             	ui-sref="Kapcsolat"
+             	ui-sref-active="active">
+			 	<span class="menupontok">Kontakt</span>
+          	  </a>
+		    </li>
+
+        <!-- Receptek -->
+			
+
+		<!-- Fejlesztők -->
+			
+
+			
+	 	 </div>
+	</div>
+</nav>

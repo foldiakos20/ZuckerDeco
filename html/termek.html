@@ -1,0 +1,55 @@
+  
+<div class="header mt-5">
+	<div class="container">
+		<div class="row mt-5">
+			
+		</div>
+	</div>
+</div>
+
+    <div class="container ">
+		
+        <div class="row mt-5">
+            <div class="col-md-4 col-lg-4">
+                <div class="card" id="kapcsolatokCard">
+                    <img src="./img/virag5.jpeg" class="card-img-top img-fluid" class="termekkep" alt="...">
+                </div>
+            </div>
+    
+            <div class="col-md-8 col-lg-8 ">
+               
+                    <img src="./img/orchidea2.png" class="img-fluid" id="termekjel" alt="...">
+                    <p id="termekar">Ára &nbsp; : &nbsp; 2.999 Ft</p>
+                    <hr class="termekcsik">
+                
+            </div>
+          
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 col-lg-4 my-3">
+                <label class="termeknev" for="name " ><h5>---Termék neve---</h5> </label>
+                <hr style="color:white;">
+                
+            </div>
+            <div class="col-md-8 col-lg-8">
+               <button class="kosar bg-black">Kosárba tesz</button> &emsp; <input type="number" class="bg-black text-white" id="quantity" name="quantity" min="1" max="99"> &emsp; db &emsp; <img src="./img/shopping.svg" alt="">
+               <hr class="kosarcsik">
+            </div>
+         
+        </div>
+    </div>
+
+    
+
+<!--Slider-->
+<div class="slider">
+	<ul>
+	  <li ng-repeat="x in [].constructor(22) track by $index">
+		<img ng-src="./img/Cukorviragdisz/disz{{$index+1}}.jpeg" alt="">
+	  </li>
+	  <li ng-repeat="x in [].constructor(36) track by $index">
+		<img ng-src="./img/Eskuvocukor/cukor{{$index}}.jpeg" alt="">
+	  </li>
+	</ul>
+</div>
